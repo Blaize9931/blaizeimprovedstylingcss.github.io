@@ -1,0 +1,58 @@
+.heading {
+
+ text-align: center;   
+}
+
+.category {
+
+    text-align: left;
+    height: 100px;
+    position: relative;
+    bottom: 100%;
+    display: block;
+}
+
+.information {
+
+  position: relative;
+  text-align: left;
+  font-size: 15px;
+  display: block;
+  height: 100px;
+  overflow-y: scroll;
+
+
+}
+
+#css {
+
+    position: relative;
+    text-align: left;
+}
+
+#fonts {
+
+    position: relative;
+    text-align: left;
+}
+
+table, th, .intro, td {
+   
+    border: 1px solid;
+    border-collapse: collapse;
+    
+  
+   }
+
+ body {
+    
+    font-family: monospace;
+    background-color: bisque;
+
+   }
+   
+   table {
+
+    position: relative;
+    top: 100px;
+   }
