@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaize's HTML, and CSS cheatsheet</title>
+    <link rel="stylesheet" href="./Resources/styles.css">
+</head>
+<body>
+<!-- Heading section  -->
+<div>
+    <h1 class="heading">Blaize's cheat-sheet</h1>
+</div>
+
+<div>
+<!-- Table of contents -->
+ 
+<table>
+
+<tr>
+    <th class="category">CSS Selectors</th>
+    <td class="intro">A CSS selector is used to identify which tag you want to make changes to. To allow for a more refined editing, you can use distinguishers</td>
+    <td class="information" id="css">
+        Element Selector: Selects all elements of a given type (e.g., p {} for all paragraphs).
+
+       <br> ID Selector: Selects a single element with a specific ID (e.g., #my-id {}).</br>
+        
+        <br> Class Selector: Selects all elements with a specific class (e.g., .my-class {}). </br>
+        
+       <br> Attribute Selector: Selects elements based on attributes (e.g., [type="text"] {}). </br>
+        
+       <br> Pseudo-class Selector: Selects elements based on their state (e.g., a:hover {} for links on hover). </br>
+        
+    <br>Pseudo-element Selector: Selects a part of an element (e.g., p::first-line {} for the first line of paragraphs).</br>
+       
+    <br>    Descendant Selector: Selects elements that are descendants of another element (e.g., div p {}).</br>
+       
+    <br>    Child Selector: Selects elements that are direct children of another element (e.g., ul > li {}).</br>
+        
+    <br>    Adjacent Sibling Selector: Selects an element that is immediately preceded by a specified element (e.g., h1+ p {}).</br>
+        
+    <br>    General Sibling Selector: Selects all sibling elements (e.g., h1 ~ p {}).</br>
+    </td>
+</tr>
+<tr>
+    <th class="category">HTML Tags</th>
+    <td class="intro"><br>An HTML tag consists of content, opening, and closing parameters. Both of these build what's known as an element</br>.</td>
+    <td id="html" class="information">
+        Definition: An HTML tag is a piece of code that is used to define elements within an HTML document.
+    
+        <br>Syntax: Tags are enclosed in angle brackets. Most HTML elements consist of an opening tag and a closing tag, with content in between.</br>
+        <br>Types: Tags can be paired, or self-closing.</br>
+        <br>Attributes: Tags often have attributes that provide additional information about an element, such as class, id, style, etc.</br>
+        <br>Purpose: They help structure the content on a webpage by defining headings, paragraphs, links, images, and other elements.</br>
+    </td>
+</tr>
+
+<tr>
+
+    <th class="category">Fonts</th>
+      <td class="intro">I have learnt about using font-face, and linking fonts.</td>    
+     
+      <td class="information" id="fonts" >
+
+        
+        The CSS @font-face rule allows external fonts or font files to be imported directly into stylesheets.The location of the font file must be specified in the CSS rule so that the files can be loaded from that location. This rule also allows locally hosted fonts to be added using a relative file path instead of a web URL.
+        
+        <br>
+        Linking fonts allow user to use web fonts in the document. They can be imported in an HTML document by using the link tag. Once the web font URL is placed within the href attribute, the imported font can then be used in CSS declaration.
+        </br>    
+
+      </td>
+</tr>
+    
+</table>
+</div>
+
+</body>
+</html>
